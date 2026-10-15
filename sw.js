@@ -1,5 +1,5 @@
 'use strict';
-const PREFIX='classroom-mobile-',CACHE=PREFIX+'7600e9b12f6b3925';
+const PREFIX='classroom-mobile-',CACHE=PREFIX+'a01d4cb998815ffb';
 const ASSETS=["index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(CACHE);
